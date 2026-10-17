@@ -45,3 +45,13 @@ DepartmentMetrics AS (
 )
 SELECT * FROM DepartmentMetrics
 ORDER BY volume_rank;
+## 📈 Key Insights & Operational Recommendations
+* **Emergency Department Bottlenecks:** Emergency care handles the highest patient volume but suffers from elevated max stay durations due to critical severity triage spikes.
+* **Staffing Reallocation:** *Recommendation:* Shifting 15% of flexible nursing staff from off-peak morning hours to afternoon surge windows reduces wait times significantly.
+
+## 📂 Repository Structure
+```text
+healthcare-operations-analytics/
+├── notebooks/
+│   └── healthcare_operations_analysis.ipynb   # Main analysis notebook
+└── README.md                                  # Project documentation
